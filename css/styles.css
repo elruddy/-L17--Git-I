@@ -16,4 +16,5 @@ h1{
     width: 100px;
     border-radius: 50%;
     background-color: blanchedalmond;
+    transition: 1s;
 }
