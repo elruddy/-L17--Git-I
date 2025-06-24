@@ -1,4 +1,5 @@
 var initSize = 100;
+var color;
 
 function onBallClick() {
   var elBall = document.getElementsByClassName('ball')[0];
@@ -7,4 +8,6 @@ function onBallClick() {
   elBall.style.height = initSize + 'px';
   elBall.style.width = initSize + 'px';
   elBall.innerHTML = initSize;
+  color = getRandomColor();
+  elBall.style.backgroundColor = color;
 }
